@@ -1,0 +1,56 @@
+/* 
+    font used : 
+        title   : DM Serif Display 
+        content : Source Code Pro 
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Source+Code+Pro:wght@500&display=swap');
+
+* {
+    background-color: #202124;
+    color: white;
+}
+.container {
+    margin: 2% 30%;
+    font-size: 20px;
+    /* margin: 40px 550px; */
+    font-family: 'Source Code Pro';
+}
+.title {
+    font-family: 'DM Serif Display', serif !important;
+    font-size: 40px;
+    padding: 30px 0 0 0;
+}
+.description {
+    font-family: 'DM Serif Display', serif !important;
+    font-size: 25px;
+    padding: 0 !important;
+}
+a {
+    text-decoration: none;
+    color: rgb(163, 158, 158);
+    padding: 0;
+}
+a:hover {
+    transition: 1s;
+    color: red;
+}
+nav { padding: 30px 0; }
+footer {
+    font-family: 'Source Code Pro';
+    text-align: center;
+    font-size: 15px;
+}
+
+.notFound {
+    font-size: 200px;
+    font-family: 'DM Serif Display', serif !important;
+
+}
+@media only screen and (max-width: 1200px) {
+    .container { margin: 2% 10%;}
+    img {width: 250px;}
+    .title { font-size: 35px;}
+    .description { font-size: 20px;}
+    .about { font-size: 20px;}
+}
