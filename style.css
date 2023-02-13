@@ -13,13 +13,12 @@
 .container {
     margin: 2% 30%;
     font-size: 20px;
-    /* margin: 40px 550px; */
     font-family: 'Source Code Pro';
 }
 .title {
     font-family: 'DM Serif Display', serif !important;
     font-size: 40px;
-    padding: 30px 0 0 0;
+    margin: 20px 0 0 0;
 }
 .description {
     font-family: 'DM Serif Display', serif !important;
@@ -32,9 +31,12 @@ a {
     padding: 0;
 }
 a:hover {
-    transition: 1s;
+    transition: .5s;
     color: red;
 }
+.head {margin: 0 0 30px 0}
+.about{ text-align: justify; }
+i { font-size: 25px; padding-right: 2px;}
 nav { padding: 30px 0; }
 footer {
     font-family: 'Source Code Pro';
